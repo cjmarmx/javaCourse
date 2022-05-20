@@ -1,5 +1,4 @@
 import java.util.Random;
-
 public class EjemploClaseMathRandom {
     public static void main(String[] args) {
 
@@ -14,10 +13,10 @@ public class EjemploClaseMathRandom {
         random = Math.floor(random);
         System.out.println("random = " + random);
 
-        System.out.println("colores = " + colores[(int) random]);
+        System.out.println("colores = " + colores[(int) random]); //cast de double a entero
         
         Random randomObj = new Random();
-        int randomInt = 15 + randomObj.nextInt(25-15+1);
+        int randomInt = 15 + randomObj.nextInt(25-15+1); //rangos de aleatorios
         System.out.println("randomInt = " + randomInt);
 
         randomInt = randomObj.nextInt(colores.length);

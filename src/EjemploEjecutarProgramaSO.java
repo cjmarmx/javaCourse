@@ -1,7 +1,7 @@
 public class EjemploEjecutarProgramaSO {
     public static void main(String[] args) {
 
-        Runtime rt = Runtime.getRuntime();
+        Runtime rt = Runtime.getRuntime(); //retorna un objeto de tipo Process
         Process proceso;
 
         try {
@@ -16,7 +16,7 @@ public class EjemploEjecutarProgramaSO {
             else {
                 proceso = rt.exec("gedit");
             }
-            proceso.waitFor();
+            proceso.waitFor(); //espera a que finalice la aplicación notepad en este caso
         } catch(Exception e){
             System.err.println("El comando es desconocido: " + e.getMessage());
             System.exit(1);

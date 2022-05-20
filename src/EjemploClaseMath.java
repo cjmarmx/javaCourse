@@ -20,7 +20,7 @@ public class EjemploClaseMath {
         System.out.println("piso = " + piso);
         
         long entero = Math.round(Math.PI);
-        System.out.println("entero = " + entero);
+        System.out.println("redondea pi a entero  = " + entero);
         
         double exp = Math.exp(1);
         System.out.println("exp = " + exp);
