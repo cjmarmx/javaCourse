@@ -26,7 +26,7 @@ public class EjemploVariablesDeEntorno {
         String path2 = varEnv.get("Path");
         System.out.println("path2 = " + path2);
 
-        String appEnv = varEnv.get("APPLICACION_ENV");
+        String appEnv = varEnv.get("APLICACION_ENV");
         System.out.println("appEnv = " + appEnv);
 
         String hola = varEnv.get("SALUDAR_HOLA");
